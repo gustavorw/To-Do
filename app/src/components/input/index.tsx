@@ -1,11 +1,11 @@
-import { Keyboard, Pressable, TextInput, TouchableOpacity, TouchableWithoutFeedback, View } from "react-native";
+import { TextInput, View } from "react-native";
 import { styles } from "./styles";
 import { useState } from "react";
 import { Colors } from "../../constants/colors";
 
-type Props = { 
+type Props = {
     value: string,
-    onChangeText: (text: string) => void,  
+    onChangeText: (text: string) => void,
 
 }
 

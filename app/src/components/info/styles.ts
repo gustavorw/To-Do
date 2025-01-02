@@ -6,13 +6,10 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 24,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        paddingTop: 32,
+        paddingTop: 42,
         paddingBottom: 20,
     },
-    line: {
-        height: 1,
-        width: '100%'
-    },
+
     create: {
         color: Colors.blue,
         fontSize: 14,
